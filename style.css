@@ -1,60 +1,78 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f5f8fa;
-  color: #333;
-  padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primeros Auxilios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header, footer {
-  background-color: #004080;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-}
+  <header>
+    <h1>Primeros Auxilios</h1>
+    <p>Telebachillerato Cotaxtla</p>
+  </header>
 
-nav {
-  background-color: #cce0ff;
-  padding: 10px;
-  text-align: center;
-  margin: 20px 0;
-  border-radius: 10px;
-}
+  <nav>
+    <ul>
+      <li><a href="#quienes-somos">Quiénes somos</a></li>
+      <li><a href="#rcp">RCP</a></li>
+      <li><a href="#heimlich">Heimlich</a></li>
+      <li><a href="#vendajes">Vendajes</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
 
-nav ul {
-  list-style: none;
-  padding: 0;
-}
+  <section id="quienes-somos">
+    <h2>¿Quiénes somos?</h2>
+    <p>Somos estudiantes del <strong>Telebachillerato Cotaxtla</strong> comprometidos con aprender y compartir conocimientos sobre primeros auxilios para ayudar a nuestra comunidad.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Primeros_auxilios_2.jpg" alt="Primeros auxilios">
+  </section>
 
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
+  <section id="rcp">
+    <h2>¿Qué es el RCP?</h2>
+    <p>La RCP (Reanimación CardioPulmonar) es una técnica que puede salvar vidas cuando alguien deja de respirar o su corazón se detiene.</p>
+    <ol>
+      <li>Verifica si la persona responde.</li>
+      <li>Llama a emergencias.</li>
+      <li>Inicia compresiones en el pecho (100-120 por minuto).</li>
+      <li>Da 2 respiraciones de rescate si sabes hacerlo.</li>
+    </ol>
+    <img src="https://medlineplus.gov/images/CPR-adult-illustration.jpg" alt="RCP en adultos">
+  </section>
 
-nav ul li a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #004080;
-}
+  <section id="heimlich">
+    <h2>Maniobra de Heimlich</h2>
+    <p>Es una técnica para desobstruir las vías respiratorias en personas que se están atragantando.</p>
+    <ol>
+      <li>Colócate detrás de la persona.</li>
+      <li>Rodea su cintura y haz un puño sobre el ombligo.</li>
+      <li>Empuja fuerte hacia adentro y arriba.</li>
+    </ol>
+    <img src="https://www.verywellhealth.com/thmb/R3kAwZ9BQnWH9CHM-Af1F2_tCME=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/heimlich-maneuver-illustration-GettyImages-1283781693-8cc7bb1b4c3742a4b1f2c73024fd30a9.jpg" alt="Maniobra de Heimlich">
+  </section>
 
-section {
-  background: white;
-  padding: 20px;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
-}
+  <section id="vendajes">
+    <h2>Vendajes y sus tipos</h2>
+    <p>Los vendajes sirven para proteger heridas, detener sangrados o inmovilizar.</p>
+    <ul>
+      <li><strong>Circular:</strong> envuelve la zona completamente.</li>
+      <li><strong>Espiral:</strong> cubre una zona con vueltas que se sobreponen.</li>
+      <li><strong>En ocho:</strong> ideal para articulaciones.</li>
+      <li><strong>Capelina:</strong> se usa en cabeza o muñones.</li>
+    </ul>
+    <img src="https://www.prensalibre.com/wp-content/uploads/2018/08/vendajes.jpg" alt="Tipos de vendajes">
+  </section>
 
-h2 {
-  color: #004080;
-  border-bottom: 2px solid #004080;
-  padding-bottom: 5px;
-}
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📞 <strong>Teléfono:</strong> 2781205158</p>
+    <p>Gracias por visitar nuestra página. ¡Cuida y ayuda a los demás! ❤️</p>
+  </section>
 
-img {
-  margin: 10px;
-  border-radius: 10px;
-  max-width: 100%;
-  height: auto;
-}
+  <footer>
+    <p>&copy; 2025 Telebachillerato Cotaxtla | Sitio creado por Avril</p>
+  </footer>
+
+</body>
+</html>
